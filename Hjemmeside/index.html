@@ -6,19 +6,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vidars hjemmeside</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+       $("#flamingo2").hover(function(){
+             $("flamingo1').hide();
+      });
+    </script>
+    <title>Hot Flamingos</title>
   </head>
   <body>
     <h1 class="overskrift">Flaming Flamingos</h1>
     <h2>Flamingos are very <a class="pink">PINK</a></h2>
 
     <div class="row">
-      <img src="amigos.png" class="am1" />
-      <img src="amigos copy.png" class="am2" />
-      <img src="logo.jpg" class="flam1" />
+      <img
+        src="amigos.png"
+        class="am1"
+        alt="heaps of drawn flamingos in the background"
+      />
+      <img src="amigos copy.png" class="am2" alt="a single drawn flamingo" />
+      <img
+        src="logo.jpg"
+        id="famingo1"
+        class="flam1"
+        alt="a photograph of a flamingo"
+      />
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Greater_flamingo_%28Phoenicopterus_roseus%29_Bahrain.jpg/440px-Greater_flamingo_%28Phoenicopterus_roseus%29_Bahrain.jpg"
         class="flam2"
+        id="flamingo2"
       />
     </div>
 
