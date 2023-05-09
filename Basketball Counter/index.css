@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(32, 32, 140);
+}
+h3 {
+  color: rgb(249, 243, 231);
+  text-shadow: 5px -5px 5px black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 20px;
+}
+h2 {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  background-color: black;
+  border: 50px solid black;
+  box-shadow: 0px 0px 50px rgb(0, 115, 255);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 0;
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.points-home {
+  display: flex;
+  flex-direction: row;
+}
+.guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home1 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 0px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#home2 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#home3 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#guest1 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 0px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#guest2 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+#guest3 {
+  background-color: rgb(32, 32, 140);
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+.points-away {
+  display: flex;
+  flex-direction: row;
+}
