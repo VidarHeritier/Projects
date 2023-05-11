@@ -1,0 +1,33 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(https://images.freeimages.com/images/large-previews/4dc/free-casino-table-cloth-texture-1637741.jpg);
+  background-size: cover;
+  text-align: center;
+  font-weight: bolder;
+  padding: 30px 0;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 4rem;
+}
+p {
+  color: white;
+  font-size: 2rem;
+}
+#message-el {
+  font-style: oblique;
+  padding: 50px 0 0 0;
+}
+button {
+  color: rgb(6, 90, 6);
+  width: 150px;
+  background: goldenrod;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
