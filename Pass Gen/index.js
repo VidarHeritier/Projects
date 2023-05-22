@@ -92,18 +92,30 @@ const characters = [
   "/",
 ];
 
-let password1 = document.getElementById("pass1");
-let password2 = document.getElementById("pass2");
+let passwordEl1 = document.getElementById("pass1");
+let passwordEl2 = document.getElementById("pass2");
+let password1 = "";
+let password2 = "";
 
-document.getElementById("generate").addEventListener("click", myFunction);
+document.getElementById("generate").addEventListener("click", generatePass1);
 
 function generatePass1() {
-  for (let i = 0; i < characters.length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * 15));
-    return result;
+  password1 = "";
+  let randomNumber = "";
+  for (let i = 0; i < 15; i++) {
+    randomNumber = Math.floor(Math.random() * characters.length);
+    password1 += characters[randomNumber];
   }
+  password2 = "";
+  let randomNumber2 = "";
+  for (let i = 0; i < 15; i++) {
+    randomNumber2 = Math.floor(Math.random() * characters.length);
+    password2 += characters[randomNumber2];
+  }
+  myFunction();
 }
+
 function myFunction() {
-  document.getElementById("pass1").textContent = result();
-  document.getElementById("pass2").innerHTML = "Hello You";
+  passwordEl1.textContent = password1;
+  passwordEl2.textContent = password2;
 }
